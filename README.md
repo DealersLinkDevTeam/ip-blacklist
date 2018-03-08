@@ -7,7 +7,7 @@
 <a name="installation"></a>
 
 ```shell
-npm install @dealerslink/express-ip-blacklist
+npm install @dealerslink/node-express-ip-blacklist
 ```
 
 # [Usage](#usage)
