@@ -1,6 +1,6 @@
 {
   "name": "@dealerslink/node-express-ip-blacklist",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A cache-based, IP blacklist for ExpressJS.",
   "main": "index.js",
   "scripts": {
@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "@dealerslink/lodash-extended": "^1.0.0",
-    "@dealerslink/node-object-key-cache": "^1.0.2",
+    "@dealerslink/node-object-key-cache": "^1.0.3",
     "logstub": "^1.1.2"
   }
 }
