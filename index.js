@@ -139,7 +139,7 @@ class IPBlacklist {
       return next();
     }
 
-    // Set onRateLimited function
+    // Set onBlacklist function
     this.config.onBlacklist = typeof this.config.onBlacklist === 'function' ? this.config.onBlacklist : (_req, _res) => {
       // Send an empty 403 response to blacklisted ips
       _res.status(403);
